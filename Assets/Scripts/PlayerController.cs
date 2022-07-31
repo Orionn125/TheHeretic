@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
-    private Vector2 moveVelocity;
     public float speed;
     public float jumpForce;
     private bool facingRight = true;
@@ -38,7 +37,6 @@ public class PlayerController : MonoBehaviour
         var horizontal = Input.GetAxisRaw("Horizontal");
 
         Vector2 moveInput = new Vector2(horizontal, 0);
-        moveVelocity = moveInput * speed;
 
         if (facingRight && horizontal < 0)
         {
