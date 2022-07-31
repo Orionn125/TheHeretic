@@ -10,7 +10,15 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 moveVelocity;
     public float speed;
+    public float jumpForce;
     private bool facingRight = true;
+
+    private bool isGrounded;
+
+    public Transform feetPos;
+    public float checkRadius;
+    
+    public LayerMask whatIsGround;
 
     private void Start()
     {
@@ -20,10 +28,16 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        var horizontal = Input.GetAxisRaw("Horizontal");
-        var vertical = Input.GetAxisRaw("Vertical");
+        isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
+     
+        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.velocity = Vector2.up * jumpForce;
+        }
 
-        Vector2 moveInput = new Vector2(horizontal, vertical);
+        var horizontal = Input.GetAxisRaw("Horizontal");
+
+        Vector2 moveInput = new Vector2(horizontal, 0);
         moveVelocity = moveInput * speed;
 
         if (facingRight && horizontal < 0)
@@ -47,7 +61,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed, rb.velocity.y);
     }
 
     void Flip()

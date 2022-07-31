@@ -21,9 +21,6 @@ public class Weapon : MonoBehaviour {
         float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);
 
-        var rotZBasedOnPlayer = rotZ + offset;
-
-        Debug.Log(rotZ);
         if (player.transform.localScale.x == -1)
         {
             if (rotZ <= 90 && rotZ >= -90)
