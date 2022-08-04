@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: d3da36e18d54de046bf5ca183adbd7d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8104485435099610649
+    second: FlowerAndThorn_0
+  - first:
+      213: 4601217728752458956
+    second: FlowerAndThorn_1
+  - first:
+      213: -8543656630249386666
+    second: FlowerAndThorn_2
+  - first:
+      213: -6162382013652965555
+    second: FlowerAndThorn_3
+  - first:
+      213: 8288185491599034444
+    second: FlowerAndThorn_4
+  - first:
+      213: 114688031978696698
+    second: FlowerAndThorn_5
+  - first:
+      213: 5755638919459866555
+    second: FlowerAndThorn_6
+  - first:
+      213: -3177471156038763617
+    second: FlowerAndThorn_7
+  - first:
+      213: -8382000375248807394
+    second: FlowerAndThorn_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlowerAndThorn_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 175
+        width: 186
+        height: 369
+      alignment: 9
+      pivot: {x: 0.9280916, y: 0.045950253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e7076509ae87070800000000000000
+      internalID: 8104485435099610649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAndThorn_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 15
+        width: 279
+        height: 533
+      alignment: 9
+      pivot: {x: 0.16505799, y: 0.27176479}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc1580652fcadf30800000000000000
+      internalID: 4601217728752458956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAndThorn_2
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 128
+        width: 110
+        height: 337
+      alignment: 9
+      pivot: {x: 0.17828259, y: 0.037292752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d031f9f85de6980800000000000000
+      internalID: -8543656630249386666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAndThorn_3
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 374
+        width: 101
+        height: 102
+      alignment: 9
+      pivot: {x: 0.88870937, y: 0.16931301}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4765f15532da7aa0800000000000000
+      internalID: -6162382013652965555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAndThorn_4
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 412
+        width: 33
+        height: 93
+      alignment: 9
+      pivot: {x: 0.7178289, y: 0.11352834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c488e4bbacc850370800000000000000
+      internalID: 8288185491599034444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAndThorn_5
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 410
+        width: 58
+        height: 74
+      alignment: 9
+      pivot: {x: 0.29979417, y: 0.111439474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff241e4824779100800000000000000
+      internalID: 114688031978696698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAndThorn_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 345
+        width: 109
+        height: 62
+      alignment: 9
+      pivot: {x: 0.114456035, y: 0.2681171}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb781d14a1320ef40800000000000000
+      internalID: 5755638919459866555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAndThorn_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 34
+        width: 126
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5307195, y: 0.122467354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b724c81da57e3d0800000000000000
+      internalID: -3177471156038763617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerAndThorn_8
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 137
+        width: 204
+        height: 196
+      alignment: 9
+      pivot: {x: 0.36447293, y: 0.73697925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a9a1681172dab80800000000000000
+      internalID: -8382000375248807394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

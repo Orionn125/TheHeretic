@@ -53,10 +53,17 @@
     <UnityVersion>2020.3.21f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\CloudScript.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
+    <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\CloudGeneration.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Environment\ThornShake.cs" />
+    <Compile Include="Assets\Scripts\EnemyBehavior\ShootingEnemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyBehavior\FollowEnemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyBehavior\EnemyProjectile.cs" />
+    <Compile Include="Assets\Scripts\EnemyBehavior\PatrolEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
