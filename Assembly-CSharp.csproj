@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Environment\ThornShake.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Menu\MenuController.cs" />
+    <Compile Include="Assets\Scripts\Hud\HealthBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

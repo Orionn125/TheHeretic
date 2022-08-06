@@ -26,10 +26,15 @@ public class PlayerController : MonoBehaviour
 
     public int health;
 
+    private HealthBar healthBar;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
+        healthBar = FindObjectOfType<HealthBar>();
+        healthBar.SetHealth(health);
     }
 
     private void Update()
@@ -103,6 +108,7 @@ public class PlayerController : MonoBehaviour
        // camAnim.SetTrigger("shake");
       //  Instantiate(explosion, transform.position, Quaternion.identity);
         health -= damage;
+        healthBar.SetHealth(health);
     }
 
     private IEnumerator Dash()
