@@ -21,9 +21,12 @@ public class ShootingEnemy : MonoBehaviour
             nextShotTime = Time.time + timeBetweenShots;
         }
 
-        if (Vector2.Distance(transform.position, target.position) < minimumDistance)
+        if (target != null)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, -speed * Time.deltaTime);
+            if (Vector2.Distance(transform.position, target.position) < minimumDistance)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, target.position, -speed * Time.deltaTime);
+            }
         }
     }
 }

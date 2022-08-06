@@ -22,7 +22,9 @@ public class PlayerController : MonoBehaviour
     private bool isDashing;
     public float dashingPower;
     public float dashingTime;
-    public float dashingCooldown;    
+    public float dashingCooldown;
+
+    public int health;
 
     private void Start()
     {
@@ -32,6 +34,12 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (health <= 0)
+        {
+          //  Instantiate(deathEffect, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+
         if (isDashing)
         {
             return;
@@ -88,6 +96,13 @@ public class PlayerController : MonoBehaviour
         Vector3 Scaler = transform.localScale;
         Scaler.x *= -1;
         transform.localScale = Scaler;
+    }
+
+    public void TakeDamage(int damage)
+    {
+       // camAnim.SetTrigger("shake");
+      //  Instantiate(explosion, transform.position, Quaternion.identity);
+        health -= damage;
     }
 
     private IEnumerator Dash()

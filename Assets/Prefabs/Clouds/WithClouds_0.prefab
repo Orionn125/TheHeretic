@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5039691683146994439}
   - component: {fileID: 5039691683146994438}
   - component: {fileID: 5039691683146994437}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WithClouds_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,9 +69,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1495782685
-  m_SortingLayer: 2
-  m_SortingOrder: 5
+  m_SortingLayerID: 1132770231
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: -5142946420041074114, guid: 8d0659cfebbb4c146ab707d01eab078e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -95,4 +95,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a5c4267533f5549a80c3971d3c30de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  _speed: 0

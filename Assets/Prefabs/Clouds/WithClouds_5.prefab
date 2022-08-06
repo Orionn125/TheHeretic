@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6055580957139347484}
   - component: {fileID: 6055580957139347483}
   - component: {fileID: 6055580957139347485}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: WithClouds_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,9 +69,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1495782685
-  m_SortingLayer: 2
-  m_SortingOrder: 5
+  m_SortingLayerID: 1132770231
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1454425849858633821, guid: 8d0659cfebbb4c146ab707d01eab078e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
