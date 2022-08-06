@@ -56,18 +56,19 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\CloudScript.cs" />
     <Compile Include="Assets\Scripts\EnemyBehavior\FollowEnemy.cs" />
+    <Compile Include="Assets\Scripts\Environment\ParallaxLayer.cs" />
+    <Compile Include="Assets\Scripts\Environment\ParallaxController.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
+    <Compile Include="Assets\Scripts\Environment\SmoothCamera2D.cs" />
     <Compile Include="Assets\Scripts\EnemyBehavior\PatrolEnemy.cs" />
+    <Compile Include="Assets\Scripts\Environment\Parallax.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\CloudGeneration.cs" />
     <Compile Include="Assets\Scripts\EnemyBehavior\EnemyProjectile.cs" />
     <Compile Include="Assets\Scripts\EnemyBehavior\ShootingEnemy.cs" />
     <Compile Include="Assets\Scripts\Environment\ThornShake.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Environment\ParallaxController.cs" />
-    <Compile Include="Assets\Scripts\Environment\ParallaxLayer.cs" />
-    <Compile Include="Assets\Scripts\Environment\SmoothCamera2D.cs" />
-    <Compile Include="Assets\Scripts\Environment\Parallax.cs" />
+    <Compile Include="Assets\Scripts\Menu\MenuController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
