@@ -8,12 +8,20 @@ public class Enemy : MonoBehaviour {
     public int health;
     public GameObject deathEffect;
     public GameObject explosion;
+    private GameController gc;
+
+    private void Start()
+    {
+        gc = FindObjectOfType<GameController>();    
+    }
 
     private void Update()
     {
         if (health <= 0) {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
+
+            gc.killCount++;
         }
     }
 

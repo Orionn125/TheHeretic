@@ -56,3 +56,6 @@ TagManager:
   - name: Character
     uniqueID: 2360306813
     locked: 0
+  - name: Environment
+    uniqueID: 1741795289
+    locked: 0

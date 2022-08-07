@@ -17,7 +17,7 @@ public class CloudGeneration : MonoBehaviour
 
     void Start()
     {
-        startPos = transform.position;
+        //startPos = transform.position;
         Prewarm();
         Invoke("AttemptSpawn", spawnInterval);
 
@@ -25,6 +25,8 @@ public class CloudGeneration : MonoBehaviour
 
     void SpawnCloud(Vector3 startPos)
     {
+        startPos = transform.position;
+
         int randomIndex = Random.Range(0, clouds.Length);
         var cloudToSummon = clouds[randomIndex];
 
